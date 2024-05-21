@@ -1,0 +1,103 @@
+/* Write your CSS here */
+.bg-container {
+  background-image: linear-gradient(to left, #e2a139, #f9d423);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inner-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 16px;
+  width: 80%;
+  padding: 24px;
+}
+@media screen and (min-width: 768px) {
+  .inner-container {
+    max-width: 500px;
+    padding: 64px;
+  }
+}
+.heading {
+  text-align: center;
+  color: #a35200;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 28px;
+  margin-bottom: 8px;
+}
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 48px;
+    margin-bottom: 16px;
+  }
+}
+.description {
+  color: #334255;
+  font-size: 20px;
+  font-family: 'Roboto';
+  margin-top: 8px;
+}
+@media screen and (min-width: 768px) {
+  .description {
+    font-size: 28px;
+    margin-top: 16px;
+  }
+}
+.image {
+  height: 150px;
+  width: 150px;
+}
+@media screen and (min-width: 768px) {
+  .image {
+    width: 200px;
+    height: 200px;
+  }
+}
+.button {
+  background-color: #ffda6f;
+  border-radius: 8px;
+  font-size: 12px;
+  font-family: 'Roboto';
+  color: #a35200;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 16px;
+  padding-left: 16px;
+  font-weight: 500;
+  margin-top: 16px;
+}
+@media screen and (min-width: 768px) {
+  .button {
+    margin-top: 32px;
+  }
+}
+.coins-count-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 32px;
+}
+@media screen and (min-width: 768px) {
+  .coins-count-container {
+    margin-top: 32px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 32px;
+  }
+}
+.count {
+  color: #475569;
+  font-size: 16px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  margin-left: 16px;
+  margin-right: 16px;
+}
